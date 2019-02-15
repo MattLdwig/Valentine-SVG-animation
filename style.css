@@ -1,0 +1,45 @@
+.fill-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+  }
+
+  
+  #char1,
+  #char2 {
+    transform-origin: center center;
+    transform-box: fill-box;
+  }
+
+  
+  #char1 {
+    transform: translate(-400px, 200px);
+}
+
+ .char2__mouth {
+     fill: none;
+ }
+  
+ .char1__left-eye--open,
+ .char1__right-eye--open,
+ .char2__left-eye--open,
+ .char2__right-eye--open,
+ .char1__mouth--happy,
+ .char2__mouth--happy {
+     opacity: 0;
+ }
+
+  svg {
+    width: 800px;
+  }
